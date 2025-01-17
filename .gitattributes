@@ -1,0 +1,8 @@
+# treat SIMPL as binary files
+.smw binary
+
+# treat vtp files as binary and use Git LFS to manage them
+*.vtp filter=lfs diff=lfs merge=lfs -binary
+
+# treat xlsx as binary files
+.xlsx binary
