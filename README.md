@@ -6,7 +6,7 @@ Includes:
 - .gitattributes file to treat .smw and .vtp as binary. Also defines .vtp as Git-LFS for optimum repo size and performance of larger binary files.
 - make_release utility for release snapshots and deploy archives
 
-To learn Git and how to use it effectively specifically with Crestron programming you can purchase my full course at https://training.proavschol.com/git
+To learn Git and how to use it effectively specifically with Crestron programming you can purchase my full course at https://training.proavschool.com/git
 Dustin Baerg, ProAVSchool.com
 
 # Usage Instructions
