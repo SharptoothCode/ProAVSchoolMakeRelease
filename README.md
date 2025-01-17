@@ -59,7 +59,9 @@ The deploy file only contains files to load to the systems:
 - .vtz (touch panel file)
 - .Core3 (folder for Crestron App projects)
 - .ch5z (CH5/Crestron Construct projects)
-Simply run make_release by double clicking it in your project’s releases folder after adding a new Git tag in Sourcetree or via other methods. The utility uses Git to find the last tag in your repository and creates the zip files with the tag name added. 
+
+Simply run make_release by double clicking it in your project’s releases folder after adding a new Git tag in Sourcetree or via other methods.
+The utility uses Git to find the last tag in your repository and creates the zip files with the tag name added. 
 
 Important: You want to ensure that you don’t make changes to any files after tagging the release before you run the make_release utility otherwise it will zip up files that aren’t specifically from that release.
 
