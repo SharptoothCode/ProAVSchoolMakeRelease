@@ -21,17 +21,19 @@
 *.bin
 *.cdm
 *.ch5z
-*.clz
 *.lpz
 *.sig
 *.sm2
 *.smft
 *.spz
 *.um2
-*.ush
 *.vtz
 *.hash
 *CrosspointList.txt
+# .ush was removed from the ignore list as these files are typically tightly coupled with SIMPL+ .usp files and are required to open a cloned project in SIMPL
+
+# ignore compiled C#/SIMPL# - note: you may want to comment out the line below if you want to include these assemblies in your repository 
+*.clz
 
 # ignore CEDs and SGDs as they will be regenerated when the touchpanel is recompiled
 *.ced
