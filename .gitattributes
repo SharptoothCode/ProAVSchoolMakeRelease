@@ -2,7 +2,8 @@
 .smw binary
 
 # treat vtp files as binary and use Git LFS to manage them
-*.vtp filter=lfs diff=lfs merge=lfs -binary
+*.vtp binary
+*.vtp filter=lfs diff=lfs merge=lfs
 
 # treat xlsx as binary files
 .xlsx binary
