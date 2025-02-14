@@ -1,6 +1,9 @@
 # ignore our releases directory
 /releases/
 
+# ignore untracked directory for various project files that don't need to be in the repo
+/untracked/
+
 # ignore zip files
 *.zip
 
