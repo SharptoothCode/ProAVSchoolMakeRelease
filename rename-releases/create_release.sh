@@ -54,10 +54,10 @@ echo "Generating release log..."
 
 # Create the deploy archive
 echo "Creating deploy ZIP archive..."
-DEPLOY_ITEMS=$(find . \( -type f \( -name "*.lpz" -o -name "*.vtz" -o -name "*.ch5z" -o -name "*.sig" \) -o -type d -name "*.Core3" \) -print)
+DEPLOY_ITEMS=$(find . ( -type f ( -name ".lpz" -o -name ".vtz" -o -name ".ch5z" -o -name ".sig" -o -name ".c3p" ) -o -type d -name ".Core3" ) -print)
 
 if [ -z "$DEPLOY_ITEMS" ]; then
-  echo "No .lpz, .vtz, .ch5z, .sig files, or *.Core3 folders found. Adding only release log."
+  echo "No .lpz, .vtz, .ch5z, .sig files, *.c3p or *.Core3 folders found. Adding only release log."
   zip "$DEPLOY_ARCHIVE" "$TEMP_LOG_FILE"
 else
   while IFS= read -r ITEM; do
