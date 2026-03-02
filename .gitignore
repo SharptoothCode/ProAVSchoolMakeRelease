@@ -25,7 +25,7 @@
 *.cdm
 *.ch5z
 *.lpz
-*.sig
+# *.sig not ignoring .sig files anymore, in troubleshooting a live system realized it would have been handy to have a .sig file from a commit
 *.sm2
 *.smft
 *.spz
