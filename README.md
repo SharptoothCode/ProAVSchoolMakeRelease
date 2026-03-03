@@ -1,4 +1,8 @@
 # ProAVSchoolMakeRelease
+
+**IMPORTANT**
+>Vision Tools Pro-e has an autosave mechanism that runs while the project is open. You should always close the file in vtp before running a git commit. I have had multiple instances where a git commit happens in between an autosave (because I had the file still open in vtp) and the commit ended up removing the .vtp project from the repo. Have not seen similar issues with SIMPL because the autosave mechanism works differently.
+
 This repository is intended to be used as a template for the start of new projects and includes a make_release utility that I developed for my Git course.
 Includes:
 - folder structure with placeholder files
